@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+
+*
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+label{
+  font-size: 20px;
+}
+/* html,body{
+background: linear-gradient(135deg, rgb(7, 3, 113), rgba(161, 2, 126, 0.769));
+
+  height: 100%;
+  width: 100%;
+} */
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.container{
+
+  background: rgba(255, 255, 255, 0.1); /* Halka transparent white color */
+
+  
+
+  padding: 32px 48px;
+  border-radius: 10px;
+  width:100%;
+  max-width:400px;
+  box-shadow: 8px 8px 24px 0px rgba(66 ,68 ,90,1);
+}
+.container >h1{
+  margin-bottom: 20px;
+  color: white;
+
+}
+.container >form{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.container div{ display: flex;
+  flex-direction: column;
+
+}
+.container input {
+  width:100%;
+  font-size: 20px;
+  padding:none;
+  border:none;
+  outline:none;
+  border-bottom: 2px solid black;
+  background: none;
+  color: white;
+
+}
+.container input::placeholder{
+ font-size: 12px;
+ font-style: italic;
+ margin-bottom: 10px;
+ 
+}
+button{
+  border:none;
+  font-size: 20px;
+  color:white;
+  border-radius:5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.container span{ color:white;
+
+}
+#lo{ color: rgb(18, 152, 193);
+
+}
+#sign{
+  color: rgb(18, 152, 193);
+}
+

@@ -1,0 +1,5 @@
+**********Messsage model *********
+
+senderId
+reciverId
+message
